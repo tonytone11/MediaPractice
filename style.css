@@ -1,0 +1,70 @@
+body {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+section {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    border-radius: 10px;
+    flex: 1 1 120px;
+}
+
+.red:hover, .blue:hover, .green:hover, .yellow:hover, .purple:hover, .orange:hover {
+    background-color: transparent;
+}
+
+.red{
+    background-color: #f44336;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blue{
+    background-color: #2196f3;
+    padding: 5px;
+    margin: 5px;
+}
+
+.green{
+    background-color: #4caf50;
+    padding: 5px;
+    margin: 5px;
+}
+
+.yellow{
+    background-color: #ffeb3b;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.purple{
+    background-color: #aa3bff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.orange{
+    background-color: #ff623b;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media (min-width: 796px){
+    div {
+        flex: 1 1 25%;
+    }
+
+    .green {
+        flex: 2 1 50%;
+    }
+}
+
